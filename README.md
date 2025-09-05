@@ -65,37 +65,6 @@ The final **champion model** is integrated into a **Django web application**, tr
 
 ---
 
-## 📁 Project Structure
-```
-
-├── models/                     # Saved models from the notebooks (.pkl)
-│   ├── best\_classifier.pkl
-│   └── best\_regressor.pkl
-├── notebooks/                  # Jupyter notebooks for each project phase
-│   ├── 01\_data\_cleaning\_eda.ipynb
-│   ├── 02\_preprocess\_and\_features.ipynb
-│   ├── 03\_regression\_models.ipynb
-│   ├── 04\_classification\_models.ipynb
-│   └── 05\_analysis\_and\_summary.ipynb
-├── reports/                    # Generated figures and project report
-│   └── figures/
-├── django-wine-app/            # The Django application
-│   ├── models/
-│   │   └── champion\_wine\_quality\_model.pkl
-│   ├── manage.py
-│   ├── predictor/
-│   ├── wine\_predictor/
-│   └── requirements.txt
-├── data/                       # Dataset files
-│   ├── processed/
-│   └── raw/
-├── README.md                   # This file
-└── requirements.txt            # All project dependencies
-
-````
-
----
-
 ## ⚙️ Setup and Installation
 
 ### 1. Prerequisites
